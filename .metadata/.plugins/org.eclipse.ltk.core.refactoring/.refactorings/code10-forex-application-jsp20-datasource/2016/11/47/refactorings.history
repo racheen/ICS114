@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DBConnectionUtil.java&apos; to &apos;code22-Payroll-Struts2-JDBC-JNDI-JTA/src/edu.ust.iics.payroll.utility&apos;&#x0D;&#x0A;- Original project: &apos;code10-forex-application-jsp20-datasource&apos;&#x0D;&#x0A;- Destination element: &apos;code22-Payroll-Struts2-JDBC-JNDI-JTA/src/edu.ust.iics.payroll.utility&apos;&#x0D;&#x0A;- Original element: &apos;edu.ust.iics.forex.utility.DBConnectionUtil.java&apos;" description="Copy compilation unit" destination="=code22-Payroll-Struts2-JDBC-JNDI-JTA/src&lt;edu.ust.iics.payroll.utility" element1="/src&lt;edu.ust.iics.forex.utility{DBConnectionUtil.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1479440829876" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,45 @@
+package action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import model.Electricity;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class ElectricityAction extends ActionSupport implements ModelDriven<Electricity>{
+	
+	Electricity e = new Electricity();
+	
+	public String execute(){
+		
+		double excess = 0;
+		double initialBill;
+		double valueAddedTax;
+		double finalBill;
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();
+		session.save(e);
+		session.getTransaction().commit();
+		
+		return SUCCESS;
+	}
+	
+	@Override
+	public void validate(){
+		if (e.getKillowattHours() <= 0){
+			addFieldError("kilowattHours", "Invalid Input");
+		}
+	}
+	
+	@Override
+	public Electricity getModel() {
+		return e;
+	}
+	
+	
+}

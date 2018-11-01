@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v7.0"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\3CSA-TUMULAK_RACHEL-MP1-MVC-SALES.war"/>
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\mp01-05-salescommission-application-jsp20-mvc2-bootstrap-jdbc-dm.war"/>
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\mp01-06-salescommission-application-jsp20-mvc2-bootstrap-jdbc-dm-bluemix.war"/>
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\mp01-04-salescommission-application-jsp20-mvc2-bootstraptemplate.war"/>
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\mp03-salescommission-application-jsp20-mvc2-jdbc-dm-bluemix.war"/>
+		<item value="C:\Users\Dell\Documents\eclipse-ws-3CSA\war\mp02-salescommission-application-jsp20-mvc2-jdbc-dm.war"/>
+	</list>
+</section>

@@ -1,0 +1,38 @@
+package model;
+
+import javax.persistence.Entity;
+
+@Entity (name="MeralcoPaymentBill")
+public class Electricity {
+	private int killowattHours;
+	private double initialBill;
+	private double valueAddedTax;
+	private double finalBill;
+	public int getKillowattHours() {
+		return killowattHours;
+	}
+	public void setKillowattHours(int killowattHours) {
+		this.killowattHours = killowattHours;
+	}
+	public double getInitialBill() {
+		return initialBill;
+	}
+	public void setInitialBill(double initialBill) {
+		this.initialBill = initialBill;
+	}
+	public double getValueAddedTax() {
+		return valueAddedTax;
+	}
+	public void setValueAddedTax(double valueAddedTax) {
+		this.valueAddedTax = valueAddedTax;
+	}
+	public double getFinalBill() {
+		return finalBill;
+	}
+	public void setFinalBill(double finalBill) {
+		this.finalBill = finalBill;
+	}
+	
+	
+	
+}

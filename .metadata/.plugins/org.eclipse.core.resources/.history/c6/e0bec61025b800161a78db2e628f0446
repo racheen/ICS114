@@ -1,0 +1,13 @@
+package model;
+
+import javax.persistence.*;
+
+public class Input {
+	int id;
+	String inputString;
+	String inputLetters;
+	String inputNumbers;
+	int totalLetters;
+	int totalNumber;
+	
+}

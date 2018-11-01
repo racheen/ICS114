@@ -1,0 +1,8 @@
+package helper;
+
+public interface ElectricityRate {
+	final double TAX = .12;
+	final double NORMALRATE = 6.20;
+	final double HIGHRATE = 9.30;
+	final double NORMALPRICE = 250;
+}

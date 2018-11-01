@@ -1,0 +1,142 @@
+
+Dec 02, 2016 07:40:25.97 NEW SESSION
+Dec 02, 2016 07:40:25.98 [10444:3644:1202/074025:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Dec 02, 2016 07:40:25.98 [4400:10168:1202/074025:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:40:45.55 [1202/074045:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+Dec 02, 2016 07:41:12.81 [4400:10168:1202/074112:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:41:12.81 [4400:10168:1202/074112:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:41:24.16 [4400:10168:1202/074124:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:41:24.16 [4400:10168:1202/074124:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:45:12.26 [1202/074512:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+Dec 02, 2016 07:55:48.71 [4400:10168:1202/075548:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:48.71 [4400:10168:1202/075548:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:49.55 [4400:10168:1202/075549:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:49.55 [4400:10168:1202/075549:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:50.10 [4400:10168:1202/075550:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:50.10 [4400:10168:1202/075550:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:51.35 [4400:10168:1202/075551:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:51.35 [4400:10168:1202/075551:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:53.12 [4400:10168:1202/075553:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:55:53.12 [4400:10168:1202/075553:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:14.11 [4400:10168:1202/075714:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:14.11 [4400:10168:1202/075714:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:15.38 [4400:10168:1202/075715:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:15.38 [4400:10168:1202/075715:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:17.42 [4400:10168:1202/075717:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:17.42 [4400:10168:1202/075717:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:19.75 [4400:10168:1202/075719:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:19.75 [4400:10168:1202/075719:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:20.67 [4400:10168:1202/075720:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:20.67 [4400:10168:1202/075720:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:21.73 [4400:10168:1202/075721:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:21.73 [4400:10168:1202/075721:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:25.40 [4400:10168:1202/075725:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:57:25.41 [4400:10168:1202/075725:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:31.64 [4400:10168:1202/075931:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:31.64 [4400:10168:1202/075931:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:57.80 [4400:10168:1202/075957:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:57.80 [4400:10168:1202/075957:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:58.53 [4400:10168:1202/075958:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:58.53 [4400:10168:1202/075958:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:58.81 [4400:10168:1202/075958:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:58.81 [4400:10168:1202/075958:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:59.29 [4400:10168:1202/075959:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 07:59:59.29 [4400:10168:1202/075959:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:02.68 [4400:10168:1202/080002:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:02.68 [4400:10168:1202/080002:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:02.88 [4400:10168:1202/080002:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:02.88 [4400:10168:1202/080002:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:39.18 [4400:10168:1202/080039:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:39.19 [4400:10168:1202/080039:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:40.81 [4400:10168:1202/080040:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:40.82 [4400:10168:1202/080040:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:41.06 [4400:10168:1202/080041:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:41.06 [4400:10168:1202/080041:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:41.34 [4400:10168:1202/080041:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:41.34 [4400:10168:1202/080041:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:42.04 [4400:10168:1202/080042:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 08:00:42.04 [4400:10168:1202/080042:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:05:21.27 [4400:10168:1202/100521:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Dec 02, 2016 10:05:22.73 [4400:10168:1202/100522:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+Dec 02, 2016 10:05:23.44 [4400:7332:1202/100523:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:05:25.44 [4400:10168:1202/100525:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:05:50.27 [4400:7332:1202/100550:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:06:10.52 [4400:10168:1202/100610:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:06:34.49 [4400:7332:1202/100634:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:07:52.48 [4400:10168:1202/100752:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:08:19.81 [4400:7332:1202/100819:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:10:57.17 [4400:10168:1202/101057:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:12:13.09 [4400:7332:1202/101213:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:18:13.37 [4400:7332:1202/101813:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:18:53.32 [4400:10168:1202/101853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:24:46.20 [4400:1372:1202/102446:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:26:01.34 [4400:1372:1202/102601:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:27:58.17 [4400:10168:1202/102758:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:27:58.17 [4400:10168:1202/102758:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:28:13.50 [4400:7332:1202/102813:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:28:22.21 [4400:10168:1202/102822:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:28:22.21 [4400:10168:1202/102822:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:28:53.33 [4400:10168:1202/102853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:29:08.48 [4400:1372:1202/102908:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:36:55.62 [4400:1372:1202/103655:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:38:13.64 [4400:7332:1202/103813:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:38:53.33 [4400:10168:1202/103853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:44:06.53 [4400:10168:1202/104406:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:06.53 [4400:10168:1202/104406:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:17.17 [4400:10168:1202/104417:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:17.18 [4400:10168:1202/104417:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:17.66 [4400:10168:1202/104417:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:17.66 [4400:10168:1202/104417:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:18.69 [4400:10168:1202/104418:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:18.69 [4400:10168:1202/104418:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:29.45 [4400:10168:1202/104429:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:29.45 [4400:10168:1202/104429:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:54.91 [4400:10168:1202/104454:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:54.92 [4400:10168:1202/104454:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:57.56 [4400:10168:1202/104457:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:44:57.56 [4400:10168:1202/104457:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:46:55.76 [4400:1372:1202/104655:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:47:52.52 [4400:10168:1202/104752:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:47:52.52 [4400:10168:1202/104752:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:48:13.77 [4400:7332:1202/104813:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:48:53.33 [4400:10168:1202/104853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:50:22.06 [4400:10168:1202/105022:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:50:22.06 [4400:10168:1202/105022:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:50:33.05 [4400:7332:1202/105033:ERROR:CONSOLE(1278)] "WebSocket connection to 'wss://gc.kis.scr.kaspersky-labs.com/A17A4623-284A-6A43-8FA8-DE2B328740FD/websocket?url=https%3A%2F%2Fwww.google.com.ph%2F_%2Fchrome%2Fnewtab%3Fespv%3D2%26ie%3DUTF-8&nocache=1480647031793' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED", source: https://gc.kis.scr.kaspersky-labs.com/A17A4623-284A-6A43-8FA8-DE2B328740FD/main.js (1278)
+Dec 02, 2016 10:52:00.11 [4400:10168:1202/105200:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:52:00.11 [4400:10168:1202/105200:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:52:05.36 [4400:10168:1202/105205:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:52:05.36 [4400:10168:1202/105205:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:56:55.90 [4400:1372:1202/105655:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 10:58:13.91 [4400:7332:1202/105813:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 10:58:53.33 [4400:10168:1202/105853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 10:59:21.06 [4400:10168:1202/105921:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 10:59:21.07 [4400:10168:1202/105921:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:02:38.15 [4400:10168:1202/110238:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:02:38.15 [4400:10168:1202/110238:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:06:18.86 [4400:10168:1202/110618:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:06:18.86 [4400:10168:1202/110618:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:06:30.24 [4400:10168:1202/110630:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:06:30.24 [4400:10168:1202/110630:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:06:56.03 [4400:1372:1202/110656:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 11:08:14.04 [4400:7332:1202/110814:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 11:08:53.34 [4400:10168:1202/110853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 11:13:16.45 [4400:10168:1202/111316:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:13:16.45 [4400:10168:1202/111316:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:13:33.63 [4400:10168:1202/111333:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:13:33.63 [4400:10168:1202/111333:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channel.
+Dec 02, 2016 11:16:56.17 [4400:1372:1202/111656:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 11:18:14.18 [4400:7332:1202/111814:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 11:18:53.34 [4400:10168:1202/111853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 11:26:56.31 [4400:1372:1202/112656:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 11:28:14.31 [4400:7332:1202/112814:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 11:28:53.60 [4400:10168:1202/112853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 11:36:56.45 [4400:1372:1202/113656:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 11:38:14.48 [4400:7332:1202/113814:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 11:38:53.35 [4400:10168:1202/113853:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 11:54:52.53 [4400:10168:1202/115452:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2016 11:54:53.02 [4400:7332:1202/115453:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Dec 02, 2016 11:55:01.46 [4400:1372:1202/115501:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Dec 02, 2016 11:55:04.73 [1202/115504:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+Dec 02, 2016 11:55:04.75 [1202/115504:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+Dec 02, 2016 11:55:05.55 [1202/115505:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;code17-Payroll-ActionInterface/web/errorpage.jsp&apos; to &apos;error.jsp&apos;" description="Rename resource &apos;errorpage.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="web/errorpage.jsp" name="error.jsp" stamp="1479429682908" updateReferences="true"/>
+</session>

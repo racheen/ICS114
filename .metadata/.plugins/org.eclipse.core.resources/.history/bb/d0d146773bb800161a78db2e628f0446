@@ -1,0 +1,71 @@
+package action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import model.Electricity;
+import helper.ElectricityRate;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class ElectricityAction extends ActionSupport implements ElectricityRate, ModelDriven<Electricity>{
+	
+	Electricity e = new Electricity();
+	
+	public String execute(){
+		
+		double excess = e.getKilowattHours() - 250;
+		double initialBill = 0;
+		double finalBill;
+		int kilowattHours = e.getKilowattHours();
+		
+//		if (kilowattHours <= 250){
+//			initialBill = kilowattHours * NORMALRATE; 
+//		}else{
+//			initialBill = (NORMALPRICE * NORMALRATE) + (excess * HIGHRATE); 
+//		}
+		
+		e.setInitialBill(computeInitial(kilowattHours, initialBill, excess));
+		e.setFinalBill(initialBill + (initialBill * TAX));
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();
+		session.save(e);
+		session.getTransaction().commit();
+		
+		return SUCCESS;
+	}
+	
+	public double computeInitial(int kilowattHours, double initialBill, double excess){
+		if (kilowattHours <= 250){
+			initialBill = kilowattHours * NORMALRATE; 
+		}else{
+			initialBill = (NORMALPRICE * NORMALRATE) + (excess * HIGHRATE); 
+		}
+		return initialBill;
+	}
+	
+	public Electricity getE() {
+		return e;
+	}
+
+	public void setE(Electricity e) {
+		this.e = e;
+	}
+
+	@Override
+	public void validate(){
+		if (e.getKilowattHours() <= 0){
+			addFieldError("kilowattHours", "Invalid Input");
+		}
+	}
+	
+	@Override
+	public Electricity getModel() {
+		return e;
+	}
+	
+	
+}

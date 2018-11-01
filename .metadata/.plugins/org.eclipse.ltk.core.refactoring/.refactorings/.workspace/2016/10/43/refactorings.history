@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mp3-gasolineestore-jsp20-datasource-boothstrap&apos; to &apos;mp3-gasolineestore-jsp20-datasource-bootstrap&apos;" description="Rename resource &apos;mp3-gasolineestore-jsp20-datasource-boothstrap&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mp3-gasolineestore-jsp20-datasource-boothstrap" name="mp3-gasolineestore-jsp20-datasource-bootstrap" stamp="1477059604040" updateReferences="true"/>
+</session>

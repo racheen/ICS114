@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;edu.ust.iics.payroll.action.ComputerPayrollAction&apos; to &apos;ComputePayrollAction&apos;&#x0D;&#x0A;- Original project: &apos;code12-Payroll-Basic&apos;&#x0D;&#x0A;- Original element: &apos;edu.ust.iics.payroll.action.ComputerPayrollAction&apos;&#x0D;&#x0A;- Renamed element: &apos;edu.ust.iics.payroll.action.ComputePayrollAction&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ComputerPayrollAction&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;edu.ust.iics.payroll.action{ComputerPayrollAction.java[ComputerPayrollAction" matchStrategy="1" name="ComputePayrollAction" qualified="false" references="true" similarDeclarations="false" stamp="1478219606275" textual="false" version="1.0"/>
+</session>

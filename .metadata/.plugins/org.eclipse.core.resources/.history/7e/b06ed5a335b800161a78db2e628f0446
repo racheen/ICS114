@@ -1,0 +1,14 @@
+package action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import model.Electricity;
+import model.Input;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class ElectricityAction extends ActionSupport implements ModelDriven<Input>{
+	
+}

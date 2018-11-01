@@ -1,0 +1,5 @@
+package helper;
+package 
+public interface ElectricityRate {
+
+}

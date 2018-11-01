@@ -1,0 +1,14 @@
+package model;
+
+import javax.persistence.Entity;
+
+@Entity (name="MeralcoPaymentBill")
+public class Electricity {
+	private int killowattHours;
+	private double initialBill;
+	private double valueAddedTax;
+	private double finalBill;
+	
+	
+	
+}

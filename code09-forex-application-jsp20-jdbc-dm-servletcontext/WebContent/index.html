@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forex Web Application</title>
+</head>
+<body>
+	<h1>Forex Web Application</h1>
+	<fieldset>
+		<legend>UST Foreign Currency Exchange</legend>
+		<form action="processconversion.html" method="post">
+			<p>
+				Enter Philippine Peso: Php<input type="number" name="phpAmount"
+					id="phpAmount" />
+			</p>
+			<p>
+				Select currency: <select name="currencyType" id="currencyType">
+					<option value="US$">US$</option>
+					<option value="EURO">EURO</option>
+					<option value="YEN">YEN</option>
+					<option value="AUS$">AUS$</option>
+				</select>
+			<p>
+				<input type="submit" value="Convert"> &nbsp; &nbsp; &nbsp; <input
+					type="reset" />
+		</form>
+	</fieldset>
+	<p>
+		Click <a href="viewalltransactions.html">here</a> to view ALL
+		transactions
+	</p>
+
+</body>
+</html>

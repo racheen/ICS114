@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;code16-Payroll-ActionInterface&apos; to &apos;code17-Payroll-ActionInterface&apos;" description="Rename resource &apos;code16-Payroll-ActionInterface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/code16-Payroll-ActionInterface" name="code17-Payroll-ActionInterface" stamp="1479428332993" updateReferences="true"/>
+</session>

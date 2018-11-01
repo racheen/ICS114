@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>mp02-salescommission-jsp20-mvc2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+			<param-name>jdbcDriver</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>jdbcURL</param-name>
+		<param-value>jdbc:mysql://localhost:3306/tumulak-3csa-ics114-db</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbUserName</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbPassword</param-name>
+		<param-value></param-value>
+	</context-param>
+		
+	<servlet>
+		<servlet-name>ProcessComputeServlet</servlet-name>
+		<servlet-class>edu.ust.iics.salescommission.controller.ProcessComputeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ListTransactionAServlet</servlet-name>
+		<servlet-class>edu.ust.iics.salescommission.controller.ListTransactionAServlet</servlet-class>
+	</servlet><servlet>
+		<servlet-name>ListTransactionBServlet</servlet-name>
+		<servlet-class>edu.ust.iics.salescommission.controller.ListTransactionBServlet</servlet-class>
+	</servlet><servlet>
+		<servlet-name>ListTransactionCServlet</servlet-name>
+		<servlet-class>edu.ust.iics.salescommission.controller.ListTransactionCServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ListTransactionServlet</servlet-name>
+		<servlet-class>edu.ust.iics.salescommission.controller.ListTransactionServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProcessComputeServlet</servlet-name>
+		<url-pattern>/processcompute.html</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ListTransactionAServlet</servlet-name>
+		<url-pattern>/viewatransactions.html</url-pattern>
+	</servlet-mapping><servlet-mapping>
+		<servlet-name>ListTransactionBServlet</servlet-name>
+		<url-pattern>/viewbtransactions.html</url-pattern>
+	</servlet-mapping><servlet-mapping>
+		<servlet-name>ListTransactionCServlet</servlet-name>
+		<url-pattern>/viewctransactions.html</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ListTransactionServlet</servlet-name>
+		<url-pattern>/viewalltransactions.html</url-pattern>
+	</servlet-mapping>
+</web-app>

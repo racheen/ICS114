@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+	#form1 {
+	 margin: 130px auto 0; 
+	 width: 500px; 
+	}
+
+	body {
+ 	 background-image: url("images/low-poly-texture-11.png");
+ 	 background-repeat: no-repeat;
+ 	 background-size:cover;
+	}
+	</style>
+	<meta charset="ISO-8859-1">
+	<title>Sales Commission Application</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	
+</head>
+<body>
+	<nav class="navbar navbar-primary navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<p class="navbar-brand"><img src="images/racheen.png" width="30px" height="30px"></p>		
+			</div>
+			 <ul class="nav navbar-nav navbar-right">
+      			<li><a href="http://www.gmail.com"><img src="images/mail all white.png" height="20px" width="20"></a></li>
+      			<li><a href="http://www.facebook.com"><img src="images/facebook all white.png"  height="20px"></a></li>
+      			<li><a href="http://www.twitter.com"><img src="images/twitter all white.png" height="20px"></a></li>
+    		</ul>
+		</div>
+	</nav>
+	
+	<div id="form1" class="container col-sm-offset-1" align="center">
+		<div class="row">
+				<div class="panel panel-success" >
+					<div class="panel-heading"><h3>Sales Commission Calculator</h3></div>
+					<div class="panel-group">
+						<div class="panel-body" >
+							<form class="form-horizontal" action="ProcessComputeController" method="post" >
+									<div class="form-group">
+										<label class="control-label col-sm-3" for="name">Name:</label>
+										<div class="col-sm-7">
+											<input type="text" name="name" id="name" class="form-control" placeholder="Enter name" required/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-3" for="code">Code: </label>
+											<div class="col-sm-7">
+												<select class="form-control" name="code" id="code">
+														<ins>Select Code</ins>
+														<option value="A">A</option>
+														<option value="B">B</option>
+														<option value="C">C</option>
+												</select>
+											</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-3" for="sales">Sales:</label>
+										<div class="col-sm-7">
+											<input type="number" name="sales" id="sales" class="form-control" placeholder="Enter sales" min="1" required/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-2"></label>
+										<div class="col-sm-7">
+												<button type="submit" id="submit" class="btn btn-success col-sm-offset-1">Submit</button> &nbsp; &nbsp; &nbsp; 
+												<button type="reset" class="btn btn-warning col-sm-offset-1">Clear</button>
+									 	</div>
+									</div> 
+							</form>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

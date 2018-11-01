@@ -1,0 +1,30 @@
+package action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import model.Input;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class action extends ActionSupport{
+	
+	Input input = new Input();
+	
+	public String execute(){
+		return SUCCESS;
+	}
+	
+	@override
+	public void validate(){
+		if (input.getInputString().trim().length() == 0){
+			addFieldError("inputString", "Missing entry");
+		}
+	}
+	SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+	
+	Session session = sessionFactory.openSession();
+	session.beginTransaction();
+	session.save(input);
+	session.getTransaction().commit();
+}

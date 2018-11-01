@@ -1,0 +1,93 @@
+package action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import model.Input;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class InputAction extends ActionSupport implements ModelDriven<Input>{
+	
+	Input input = new Input();
+	
+	public String execute(){
+		
+		int countL = 0;
+		int countN = 0;
+		String inputL = "";
+		String inputN = "";
+		char[] in = input.getInputString().toCharArray();
+//		removeDuplicate(in);
+		for (int i=0;i<in.length;i++){
+			switch(in[i]){
+				case 'a': case 'b': 
+				case 'c': case 'd':
+				case 'e': case 'f':
+				case 'g': case 'h':
+				case 'i': case 'j':
+				case 'k': case 'l':
+				case 'm': case 'n':
+				case 'o': case 'p':
+				case 'q': case 'r':
+				case 's': case 't':
+				case 'u': case 'v':
+				case 'w': case 'x':
+				case 'y': case 'z':
+				case 'A': case 'B': 
+				case 'C': case 'D':
+				case 'E': case 'F':
+				case 'G': case 'H':
+				case 'I': case 'J':
+				case 'K': case 'L':
+				case 'M': case 'N':
+				case 'O': case 'P':
+				case 'Q': case 'R':
+				case 'S': case 'T':
+				case 'U': case 'V':
+				case 'W': case 'X':
+				case 'Y': case 'Z': inputL += in[i]; countL++; break;
+				case '0': case '5':
+				case '1': case '6':
+				case '2': case '7':
+				case '3': case '8':
+				case '4': case '9': inputN += in[i]; countN++; break;
+			}
+		}
+		
+		input.setInputLetters(inputL);
+		input.setInputNumbers(inputN);
+		input.setTotalLetters(countL);
+		input.setTotalNumber(countN);
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();
+		session.save(input);
+		session.getTransaction().commit();
+		
+		return SUCCESS;
+	}
+	
+	@Override
+	public void validate(){
+		if (input.getInputString().trim().length() == 0){
+			addFieldError("inputString", "Missing entry");
+		}
+	}
+
+	public Input getInput() {
+		return input;
+	}
+
+	public void setInput(Input input) {
+		this.input = input;
+	}
+
+	@Override
+	public Input getModel() {
+		return input;
+	}
+	
+}

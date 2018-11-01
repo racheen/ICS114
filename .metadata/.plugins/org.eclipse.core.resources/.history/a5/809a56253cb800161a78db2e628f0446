@@ -1,0 +1,48 @@
+package model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity (name="MeralcoPaymentBill")
+public class Electricity {
+	
+	@Id
+	@GeneratedValue (strategy = GenerationType.AUTO)
+	private int id;
+	private int kilowattHours;
+	private double initialBill;
+	private double finalBill;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getKilowattHours() {
+		return kilowattHours;
+	}
+	public void setKilowattHours(int kilowattHours) {
+		this.kilowattHours = kilowattHours;
+	}
+	public double getInitialBill() {
+		return initialBill;
+	}
+	public void setInitialBill(double initialBill) {
+		
+		this.initialBill = initialBill;
+	}
+	
+	public double getFinalBill() {
+		return finalBill;
+	}
+	public void setFinalBill(double finalBill) {
+		this.finalBill = finalBill;
+	}
+	
+	
+	
+}
